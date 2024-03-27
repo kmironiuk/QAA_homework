@@ -2,18 +2,21 @@
 
 ### Module 2
 
+The cypress/support/commands.js file contains custom command:
+  - Finds the email field and enters the appropriate email
+  - Finds the password field and enters the appropriate password
+  - Press the "Log in" button
+
 The cypress/e2e/homework_2cy.js file contains two tests:
 + Test 1
   - Opens https://www.edu.goit.global/account/login
-  - He finds the email field and enters **user888@gmail.com**
-  - He finds the password field and enters **1234567890**
-  - Press the "Log in" button
+  - Uses a custom login command
+  - Enters e-mail **user888@gmail.com** and password **1234567890**
   - Finds the button and opens the website menu
-  - He finds the "Log out" button in the menu, clicks on it and returns to the login page
+  - Finds the "Log out" button in the menu, clicks on it and returns to the login page
 + Test 2
   - Opens https://www.edu.goit.global/account/login
-  - He finds the email field and enters **testowyqa@qa.team**
-  - He finds the password field and enters **QA!automation-1**
-  - Press the "Log in" button
+  - Uses a custom login command
+  - Enters e-mail **testowyqa@qa.team** and password **QA!automation-1**
   - Finds the button and opens the website menu
-  - He finds the "Log out" button in the menu, clicks on it and returns to the login page
+  - Finds the "Log out" button in the menu, clicks on it and returns to the login page
