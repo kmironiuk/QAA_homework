@@ -24,6 +24,7 @@ The cypress/e2e/homework_2cy.js file contains two tests:
 ### Module 3
 
 Prescribed tests from Module 2 using the **Page Object Pattern**
+
 Separate files were created in the **pages** folder:
 + For the login page, the **Login.js** file.
 + For the home page, the **HomePage.js** file.
