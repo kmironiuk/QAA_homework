@@ -7,7 +7,7 @@ The cypress/support/commands.js file contains custom command:
   - Finds the password field and enters the appropriate password
   - Press the "Log in" button
 
-The cypress/e2e/homework_2cy.js file contains two tests:
+The cypress/e2e/homework_2.cy.js file contains two tests:
 + Test 1
   - Opens https://www.edu.goit.global/account/login
   - Uses a custom login command
@@ -23,8 +23,8 @@ The cypress/e2e/homework_2cy.js file contains two tests:
 
 ### Module 3
 
-Prescribed tests from Module 2 using the **Page Object Pattern**
+The cypress/e2e/homework_3.cy.js file contains prescribed tests from Module 2 using the **Page Object Pattern**
 
 Separate files were created in the **pages** folder:
-+ For the login page, the **Login.js** file.
-+ For the home page, the **HomePage.js** file.
++ For the login page, the **Login.js** file
++ For the home page, the **HomePage.js** file
