@@ -20,3 +20,10 @@ The cypress/e2e/homework_2cy.js file contains two tests:
   - Enters e-mail **testowyqa@qa.team** and password **QA!automation-1**
   - Finds the button and opens the website menu
   - Finds the "Log out" button in the menu, clicks on it and returns to the login page
+
+### Module 3
+
+Prescribed tests from Module 2 using the **Page Object Pattern**
+Separate files were created in the **pages** folder:
++ For the login page, the **Login.js** file.
++ For the home page, the **HomePage.js** file.
