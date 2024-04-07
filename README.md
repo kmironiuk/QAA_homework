@@ -28,3 +28,15 @@ The cypress/e2e/homework_3.cy.js file contains prescribed tests from Module 2 us
 Separate files were created in the **pages** folder:
 + For the login page, the **Login.js** file
 + For the home page, the **HomePage.js** file
+
+### Module 4
+
+The cypress/e2e/homework_4.cy.js file contains tests:
++ Test 1 - GET method
++ Test 2 - POST method
++ Test 3 - PUT method
++ Test 4 - Add headers
++ Test 5 i 6 - Cookies and test duration
++ Test 7 - Randomization of data in the query
++ Test 8 - Query parameters
++ Test 9 i 10 - Checking the response code
