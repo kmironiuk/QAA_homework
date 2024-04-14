@@ -82,4 +82,6 @@ We verify that 95 percent of our users receive a response to an http request wit
 
 ### Module 6 **CI/CD**
 
-asdfggg
+Github Actions automatically runs tests made in Cypress
+
+Created .github\workflows\homework_6.yml file
