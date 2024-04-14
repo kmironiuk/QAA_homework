@@ -1,6 +1,6 @@
 # **QAA_homework**
 
-### Module 2
+### Module 2 **E2E tests**
 
 The cypress/support/commands.js file contains custom command:
   - Finds the email field and enters the appropriate email
@@ -21,7 +21,7 @@ The cypress/e2e/homework_2.cy.js file contains two tests:
   - Finds the button and opens the website menu
   - Finds the "Log out" button in the menu, clicks on it and returns to the login page
 
-### Module 3
+### Module 3 **Page object pattern**
 
 The cypress/e2e/homework_3.cy.js file contains prescribed tests from Module 2 using the **Page Object Pattern**
 
@@ -29,7 +29,7 @@ Separate files were created in the **pages** folder:
 + For the login page, the **Login.js** file
 + For the home page, the **HomePage.js** file
 
-### Module 4
+### Module 4 **Testing HTTP API**
 
 The cypress/e2e/homework_4.cy.js file contains tests API:
 + Test 1 - GET method
@@ -41,7 +41,7 @@ The cypress/e2e/homework_4.cy.js file contains tests API:
 + Test 8 - Query parameters
 + Test 9 i 10 - Checking the response code
 
-### Module 5
+### Module 5 **Performance testing**
 
 The cypress/artillery contains Spike Test
 
@@ -79,3 +79,6 @@ We check whether the number of requests per second is greater than or equal to 2
 We check whether at least one virtual user failed his scenario -> vusers.failed == 0
 
 We verify that 95 percent of our users receive a response to an http request within one second or faster -> http.response_time.p95 < 10
+
+### Module 6 **CI/CD**
+
