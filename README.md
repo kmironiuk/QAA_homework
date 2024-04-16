@@ -85,3 +85,7 @@ We verify that 95 percent of our users receive a response to an http request wit
 Github Actions automatically runs tests made in Cypress
 
 Created .github\workflows\homework_6.yml file
+
+### Module 7 **Behavior Driven Development BDD**
+
+The Cucumber_Test\features\homework_7.feature file contains a test script (without implementation) in Gherkin style, which describes the purchase of a product in an online store.
